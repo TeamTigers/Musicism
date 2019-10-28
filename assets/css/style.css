@@ -9192,13 +9192,13 @@ nav.display-none.search-sm .nav-wrapper form .input-field input.search-box-sm:no
     font-family: 'Material Icons';
 
     position: relative;
-    top: 3px;
+    top: 2px;
 
     padding: 0 5px 0 4px;
 
     content: 'keyboard_arrow_right';
 
-    color: #bdbdbd;
+    color: #455a64;
 }
 #breadcrumbs-wrapper .breadcrumbs .active
 {

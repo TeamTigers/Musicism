@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Musicism</title>
+    <link rel="icon" href="assets/img/cadetkid.png">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=El+Messiri&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/materialize.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+</head>
+
+<body>
+    <div id="loader-wrapper">
+        <div id="loader"></div>
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+    </div>
+    <header>
+        <nav class="nav-extended nav-fixed purple darken-4 z-depth-2">
+            <div class="nav-wrapper">
+                <a class="brand-logo" id="cpa-logo"><i class="material-icons"
+                        id="logo-icon">bubble_chart</i>Musicism</a>
+                <a href="#" class="sidenav-trigger" data-target="mobile-nav">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="artist.html"><i class="material-icons left">person</i> Artist</a></li>
+                    <li><a href="album.html"><i class="material-icons left">library_music</i> Album</a></li>
+                    <li><a href=""></a></li>
+                </ul>
+            </div>
+        </nav>
+        <ul class="sidenav" id="mobile-nav">
+            <li><a href="signup.html">SignUp</a></li>
+            <li><a href="signin.html">SignIn</a></li>
+            <li><a href="enrolled_student.html">Enrolled students</a></li>
+            <li><a href="retake_student.html">Retake students</a></li>
+            <li><a href="batch22.html">Section</a></li>
+            <li><a href="active-enrollment.html">Active enrollment</a></li>
+        </ul>
+    </header>
+
+    <div class="container">
+        <div class="row"><br>
+            <div class="center-align">
+                <h4>Album Name</h4>
+                <p>Band name</p>
+            </div>
+            <div class="col s12 l12">
+                <ul class="collection">
+                    <li class="collection-item avatar">
+                        <i class="material-icons circle green">music_note</i>
+                        <span class="title center">Bad Guy</span>
+                        <div class="right">
+                            <audio controls>
+                                <source src="src/album_song/song1.mp3" type="audio/ogg">
+                                <source src="src/album_song/song1.mp3" type="audio/mpeg">
+                            </audio>
+                        </div>
+                    </li>
+                    <li class="collection-item avatar">
+                        <i class="material-icons circle green">music_note</i>
+                        <span class="title">Title</span>
+                        <p>First Line <br>
+                            Second Line
+                        </p>
+                    </li>
+                    <li class="collection-item avatar">
+                        <i class="material-icons circle green">music_note</i>
+                        <span class="title">Title</span>
+                        <p>First Line <br>
+                            Second Line
+                        </p>
+                    </li>
+                    <li class="collection-item avatar">
+                        <i class="material-icons circle red">play_arrow</i>
+                        <span class="title">Title</span>
+                        <p>First Line <br>
+                            Second Line
+                        </p>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="assets/js/materialize.js"></script>
+    <script src="assets/js/plugin.js"></script>
+</body>
+
+</html>

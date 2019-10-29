@@ -4,4 +4,8 @@ $(document).ready(function() {
     $('select').formSelect();
     $('.dropdown-trigger').dropdown();
     $('.tabs').tabs();
+
+    $("#deletebtn").click(function(){
+        $("#deletediv").remove();
+    });
 });

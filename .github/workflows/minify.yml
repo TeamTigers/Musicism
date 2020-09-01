@@ -12,7 +12,7 @@ jobs:
       - name: Minify CSS
         uses: ./
         with:
-          folder: "./assets/css/"
+          folder: "./"
 
       - name: Print out test file.
         run: |

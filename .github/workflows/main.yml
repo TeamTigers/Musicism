@@ -1,0 +1,11 @@
+name: mini-sauras
+
+on: [push]
+
+jobs:
+  minify:
+    runs-on: ubuntu-18.04
+
+    steps:
+      - name: mini-sauras
+        uses: TeamTigers/mini-sauras@v0.0.1

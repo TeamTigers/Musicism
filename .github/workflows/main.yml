@@ -10,11 +10,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
     - name: mini-sauras
-      uses: TeamTigers/mini-sauras@v0.0.1
+      uses: TeamTigers/mini-sauras@v0.0.2
       id: dir
       with:
         directory: './'
-      
-    - name: Print out list of files
-      run: |
-        find . -type d | sed -e "s/[^-][^\/]*\//  |/g" -e "s/|\([^ ]\)/|-\1/"

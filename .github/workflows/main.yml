@@ -11,6 +11,7 @@ jobs:
       uses: actions/checkout@v2
     - name: Install terser
       run: |
+        npm init -y
         npm i terser
     - name: mini-sauras
       uses: TeamTigers/mini-sauras@v0.0.2

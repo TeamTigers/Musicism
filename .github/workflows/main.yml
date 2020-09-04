@@ -15,5 +15,5 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.TOKEN }}
       id: dir
       with:
-        directory: './'
+        directory: 'testing'
         branch: 'test'

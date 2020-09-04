@@ -16,4 +16,4 @@ jobs:
       id: dir
       with:
         directory: 'testing/'
-        branch: 'test'
+        branch: 'newBranch'

@@ -10,10 +10,10 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
     - name: mini-sauras
-      uses: TeamTigers/mini-sauras@v0.0.4
+      uses: TeamTigers/mini-sauras@v0.0.5
       env:
         GITHUB_TOKEN: ${{ secrets.TOKEN }}
       id: dir
       with:
-        directory: 'testing/'
+        directory: './'
         branch: 'newBranch'

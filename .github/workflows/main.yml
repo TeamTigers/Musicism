@@ -1,4 +1,4 @@
-name: mini-sauras
+name: minisauras
 
 on: [push]
 
@@ -9,11 +9,10 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v2
-    - name: mini-sauras
-      uses: TeamTigers/mini-sauras@v0.0.5
+    - name: minisauras
+      uses: TeamTigers/minisauras@v1.0.0
       env:
         GITHUB_TOKEN: ${{ secrets.TOKEN }}
       id: dir
       with:
-        directory: 'testing/'
-        branch: 'newBranch'
+        directory: 'assets/'

@@ -15,4 +15,4 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.TOKEN }}
       id: dir
       with:
-        directory: 'assets/'
+        directory: './'
